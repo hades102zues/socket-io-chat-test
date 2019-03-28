@@ -6,9 +6,11 @@ html {
 	padding:0;
 	margin:0;
 	box-sizing: border-box;
+	font-family: 'Nunito', sans-serif;
 }
  body{
  	color:white;
+ 	
  }
 .screen-title{
 	background-color: #00838f;
@@ -20,16 +22,17 @@ html {
 }
 
 .title{
-	font-size: 2rem;
-	font-weight:bold;
-	background-color: blue;
+	font-size: 2.5rem;
+	font-weight: bold;
 }
 
 .chat-box{
 	height:75vh;
 	padding-top: 2rem;
 	padding-left: 5rem;
-	background-color: purple;
+	background-color: #e0e0e0;
+	overflow-y: scroll;
+
 
 }
 
@@ -37,15 +40,18 @@ html {
 	width:60%;
 	background-color: white;
 	padding:3px;
+	border-radius:3px;
 
 }
 
 .username{
 	color:orange;
+	font-size:1.3rem;
 }
 
 .message-text{
 	margin-top: 10px;
+	font-size: 1.7rem;
 	color:#333;
 }
 
@@ -53,23 +59,33 @@ html {
 
 .text-area{
 	height:15vh;
-	background-color: red;
-
+	background-color: #e0e0e0;
 }
 
 .send-spot{
 	height:100%;
 	padding:2rem;
-	background-color: blue;
-
 }
 
 .message-input{
 	width:85%;
 	height:90%;
+	border-radius:20px;
+	border:1px solid #ccc;
+	outline:none;
+	padding-left: 10px;
+	font-size:1.5rem;
+
 }
+
+
 
 .message-button{
 	width:10%;
 	height:90%;
+	border:none;
+	color:#23408e;
+	font-size: 2rem;
+	cursor:pointer;
+	outline:none;
 }
