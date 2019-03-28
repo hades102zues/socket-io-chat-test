@@ -1,0 +1,75 @@
+html {
+	font-size: 62.5%;
+}
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+ body{
+ 	color:white;
+ }
+.screen-title{
+	background-color: #00838f;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height:10vh;
+	
+}
+
+.title{
+	font-size: 2rem;
+	font-weight:bold;
+	background-color: blue;
+}
+
+.chat-box{
+	height:75vh;
+	padding-top: 2rem;
+	padding-left: 5rem;
+	background-color: purple;
+
+}
+
+.message-box{
+	width:60%;
+	background-color: white;
+	padding:3px;
+
+}
+
+.username{
+	color:orange;
+}
+
+.message-text{
+	margin-top: 10px;
+	color:#333;
+}
+
+
+
+.text-area{
+	height:15vh;
+	background-color: red;
+
+}
+
+.send-spot{
+	height:100%;
+	padding:2rem;
+	background-color: blue;
+
+}
+
+.message-input{
+	width:85%;
+	height:90%;
+}
+
+.message-button{
+	width:10%;
+	height:90%;
+}
