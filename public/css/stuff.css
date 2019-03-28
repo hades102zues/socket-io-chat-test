@@ -37,10 +37,11 @@ html {
 }
 
 .message-box{
-	width:60%;
+	max-width:60%;
 	background-color: white;
 	padding:3px;
 	border-radius:3px;
+	margin-bottom: 20px;
 
 }
 

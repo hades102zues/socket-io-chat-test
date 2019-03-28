@@ -19,4 +19,13 @@ app.use((req, res)=>{
 	res.status(400).json({message: 'Route Not Found'});
 });
 
-app.listen(port, ()=>console.log('***Server Initiated***'));
+
+
+const server = app.listen(port, ()=>console.log('***HTTP Server Initiated***'));
+
+const io = require('socket.io')(server);
+io.on('connection', (socket)=>{
+  socket.on('chat message', (msg)=>{
+  	io.emit('chat message', msg);
+  })
+});
