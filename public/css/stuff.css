@@ -12,6 +12,12 @@ html {
  	color:white;
  	
  }
+
+ ul{
+ 	list-style: none
+ }
+
+
 .screen-title{
 	background-color: #00838f;
 	display:flex;
@@ -33,10 +39,11 @@ html {
 	background-color: #e0e0e0;
 	overflow-y: scroll;
 
-
 }
 
+
 .message-box{
+	display:block;
 	max-width:60%;
 	background-color: white;
 	padding:3px;
