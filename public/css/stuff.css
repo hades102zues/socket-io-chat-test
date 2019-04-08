@@ -2,98 +2,87 @@ html {
 	font-size: 62.5%;
 }
 
-*{
-	padding:0;
-	margin:0;
+* {
+	padding: 0;
+	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Nunito', sans-serif;
+	font-family: "Nunito", sans-serif;
 }
- body{
- 	color:white;
- 	
- }
+body {
+	color: white;
+}
 
- ul{
- 	list-style: none
- }
+ul {
+	list-style: none;
+}
 
-
-.screen-title{
+.screen-title {
 	background-color: #00838f;
-	display:flex;
+	display: flex;
 	justify-content: center;
 	align-items: center;
-	height:10vh;
-	
+	height: 10vh;
 }
 
-.title{
+.title {
 	font-size: 2.5rem;
 	font-weight: bold;
 }
 
-.chat-box{
-	height:75vh;
+.chat-box {
+	height: 75vh;
 	padding-top: 2rem;
 	padding-left: 5rem;
 	background-color: #e0e0e0;
 	overflow-y: scroll;
-
 }
 
-
-.message-box{
-	display:block;
-	max-width:60%;
+.message-box {
+	display: block;
+	max-width: 60%;
 	background-color: white;
-	padding:3px;
-	border-radius:3px;
+	padding: 3px;
+	border-radius: 3px;
 	margin-bottom: 20px;
-
 }
 
-.username{
-	color:orange;
-	font-size:1.3rem;
+.username {
+	color: orange;
+	font-size: 1.3rem;
 }
 
-.message-text{
+.message-text {
 	margin-top: 10px;
 	font-size: 1.7rem;
-	color:#333;
+	color: #333;
 }
 
-
-
-.text-area{
-	height:15vh;
+.text-area {
+	height: 15vh;
 	background-color: #e0e0e0;
 }
 
-.send-spot{
-	height:100%;
-	padding:2rem;
+.send-spot {
+	height: 100%;
+	padding: 2rem;
 }
 
-.message-input{
-	width:85%;
-	height:90%;
-	border-radius:20px;
-	border:1px solid #ccc;
-	outline:none;
+.message-input {
+	width: 85%;
+	height: 90%;
+	border-radius: 20px;
+	border: 1px solid #ccc;
+	outline: none;
 	padding-left: 10px;
-	font-size:1.5rem;
-
+	font-size: 1.5rem;
 }
 
-
-
-.message-button{
-	width:10%;
-	height:90%;
-	border:none;
-	color:#23408e;
+.message-button {
+	width: 10%;
+	height: 90%;
+	border: none;
+	color: #23408e;
 	font-size: 2rem;
-	cursor:pointer;
-	outline:none;
+	cursor: pointer;
+	outline: none;
 }
